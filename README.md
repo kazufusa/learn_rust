@@ -8,7 +8,7 @@ Each project focuses on a different aspect of Rust, gradually increasing in comp
 
 - **Hello World**
   - **Description**: A simple program that prints "Hello World!" to the console. This project serves as my introducion to Rust's syntax and compiler
-  - **Link**: [rust_hello_world_1](./rust_helloworld_1/README.md)
+  - **Link**: [rust_hello_world_1](./rust_helloworld_1/)
 
 # Learnig Goals
 
