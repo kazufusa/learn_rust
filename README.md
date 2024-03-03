@@ -6,9 +6,8 @@ Welcome to my Learn-Rust repository! This is a space where I document my journey
 
 Each project focuses on a different aspect of Rust, gradually increasing in complexity and scope. Here's an overview of the projects currentry in this repository:
 
-- **Hello World**
-  - **Description**: A simple program that prints "Hello World!" to the console. This project serves as my introducion to Rust's syntax and compiler
-  - **Link**: [rust_hello_world_1](./rust_helloworld_1/)
+- **[Hello World](./rust_helloworld_1/)** - A simple program that prints "Hello World!" to the console. This project serves as my introducion to Rust's syntax and compiler
+- **[SQLx PostgreSQL Example](./sqlx_postgresql)** - Demonstrates how to use SQLx with PostgreSQL, including setting up the database, connecting, and performing basic operations. This project also explores handling UUIDs and timestamps in Rust, utilizing Docker for database management.
 
 # Learnig Goals
 
