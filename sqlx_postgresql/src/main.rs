@@ -21,7 +21,7 @@ async fn main() -> Result<(), sqlx::Error> {
         .await?;
 
     println!("Successfully connected to the database.");
-    let users = sqlx::query_as::<_, User>("SELECT id, name, created_at FROM users")
+    let users = sqlx::query_as!(User, "SELECT id, name, created_at FROM users")
         .fetch_all(&pool)
         .await?;
 
