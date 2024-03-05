@@ -8,6 +8,7 @@ Each project focuses on a different aspect of Rust, gradually increasing in comp
 
 - **[Hello World](./rust_helloworld_1/)** - A simple program that prints "Hello World!" to the console. This project serves as my introducion to Rust's syntax and compiler
 - **[SQLx PostgreSQL Example](./sqlx_postgresql)** - Demonstrates how to use SQLx with PostgreSQL, including setting up the database, connecting, and performing basic operations. This project also explores handling UUIDs and timestamps in Rust, utilizing Docker for database management.
+- **[SQLx PostgreSQL Migration Example](./sqlx_postgresql_migration)** - Demonstrates database operations in Rust using SQLx, focusing on migration management. This project covers setting up SQLx, creating migrations, and applying them to manage database schemas.
 
 # Learnig Goals
 

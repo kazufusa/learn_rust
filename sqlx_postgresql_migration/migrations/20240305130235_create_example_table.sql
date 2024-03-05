@@ -1,0 +1,24 @@
+BEGIN;
+
+CREATE SCHEMA IF NOT EXISTS blog;
+
+CREATE TABLE blog.users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT (CURRENT_TIMESTAMP AT TIME ZONE 'Asia/Tokyo'),
+  CONSTRAINT users_name_unique UNIQUE (name),
+  CONSTRAINT users_email_unique UNIQUE (email)
+);
+
+CREATE TABLE blog.posts (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES blog.users(id),
+  title VARCHAR(255) NOT NULL,
+  content TEXT NOT NULL,
+  published BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT (CURRENT_TIMESTAMP AT TIME ZONE 'Asia/Tokyo')
+);
+
+
+COMMIT;
