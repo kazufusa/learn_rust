@@ -1,4 +1,4 @@
-use chrono::{DateTime, Utc};
+use chrono::NaiveDateTime;
 use sqlx::postgres::PgPool;
 use sqlx::FromRow;
 use std::env;
@@ -8,7 +8,7 @@ use ulid::Ulid;
 struct User {
     id: String,
     name: String,
-    created_at: DateTime<Utc>,
+    created_at: NaiveDateTime,
 }
 
 #[tokio::main]
