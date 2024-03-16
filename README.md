@@ -10,6 +10,7 @@ Each project focuses on a different aspect of Rust, gradually increasing in comp
 - **[SQLx PostgreSQL Example](./sqlx_postgresql)** - Demonstrates how to use SQLx with PostgreSQL, including setting up the database, connecting, and performing basic operations. This project also explores handling UUIDs and timestamps in Rust, utilizing Docker for database management.
 - **[SQLx PostgreSQL Migration Example](./sqlx_postgresql_migration)** - Demonstrates database operations in Rust using SQLx, focusing on migration management. This project covers setting up SQLx, creating migrations, and applying them to manage database schemas.
 - **[SQLx PostgreSQL and custom domain type](./sqlx_postgresql_ulid)** - Showcases the use of Rust with PostgreSQL through SQLx, emphasizing custom domain types for ULID-based user IDs. This project underlines the benefits of type safety and sophisticated identifier handling in database applications.
+- **[SQLx PostgreSQL and async insert](./sqlx_postgresql_store)** - Explores asynchronous data insertion using SQLx with PostgreSQL. This project highlights async programming platform in Rust and practical database interaction, include transactions and environment management.
 
 # Learnig Goals
 
